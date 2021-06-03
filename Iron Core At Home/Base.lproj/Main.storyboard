@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eMp-Li-yei">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="97"/>
+        </scene>
+        <!--WELCOME-->
+        <scene sceneID="qOu-Vw-xoj">
+            <objects>
+                <viewController id="NEE-dF-iSj" customClass="GetStartedNowVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qCJ-aA-880">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AkS-d5-RKD">
+                                <rect key="frame" x="0.0" y="88" width="414" height="632"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Sal-RH-fs9"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="461" id="Vbi-GI-oqi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="X2s-TE-6AS"/>
+                                    <constraint firstAttribute="height" constant="461" id="uUC-sY-C0T"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Iron Core At Home ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="60" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="16" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Every person’s dream is to have the perfect core muscles. These are the muscles in your hips and pelvis which go around your spine. The main job for these muscles is to stabilize the back, support the organs, and ensure the strength of the entire body. The training that we give you will help straighten that core.
+ This is all you need to know for the workout program: the exercises need to be done for one minute; rest after each set for 30 seconds before going onto the next; repeat the exercises 5 times (5 sets).</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ZA-Hh-TxW">
+                                <rect key="frame" x="48" y="768" width="317" height="42"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="278" id="QSI-Rx-vH2"/>
+                                    <constraint firstAttribute="height" constant="42" id="UzK-qc-RHH"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="mes-Bn-Hri"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="278" id="npS-Fz-eWb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Get Started Now">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wPd-kq-kT4" kind="show" id="8Wa-bY-Zuq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AkS-d5-RKD" firstAttribute="trailing" secondItem="EyE-TZ-gco" secondAttribute="trailing" id="8Zy-FT-Lr9"/>
+                            <constraint firstItem="EyE-TZ-gco" firstAttribute="bottom" secondItem="5ZA-Hh-TxW" secondAttribute="bottom" constant="52" id="CQG-GF-8X9"/>
+                            <constraint firstItem="AkS-d5-RKD" firstAttribute="leading" secondItem="EyE-TZ-gco" secondAttribute="leading" id="Cve-S0-UVx"/>
+                            <constraint firstItem="5ZA-Hh-TxW" firstAttribute="leading" secondItem="EyE-TZ-gco" secondAttribute="leading" constant="48" id="FtB-xE-HOa"/>
+                            <constraint firstItem="5ZA-Hh-TxW" firstAttribute="leading" secondItem="EyE-TZ-gco" secondAttribute="leading" constant="48" id="IMb-J2-x5v"/>
+                            <constraint firstItem="5ZA-Hh-TxW" firstAttribute="top" secondItem="AkS-d5-RKD" secondAttribute="bottom" constant="48" id="ITb-SV-4g2"/>
+                            <constraint firstItem="AkS-d5-RKD" firstAttribute="trailing" secondItem="EyE-TZ-gco" secondAttribute="trailing" id="Y6t-7c-W3k"/>
+                            <constraint firstItem="AkS-d5-RKD" firstAttribute="leading" secondItem="EyE-TZ-gco" secondAttribute="leading" id="ZXM-3E-dvf"/>
+                            <constraint firstItem="5ZA-Hh-TxW" firstAttribute="top" secondItem="AkS-d5-RKD" secondAttribute="bottom" constant="48" id="fPw-p5-SBp"/>
+                            <constraint firstItem="EyE-TZ-gco" firstAttribute="trailing" secondItem="5ZA-Hh-TxW" secondAttribute="trailing" constant="49" id="fVi-6X-N6L"/>
+                            <constraint firstItem="EyE-TZ-gco" firstAttribute="trailing" secondItem="5ZA-Hh-TxW" secondAttribute="trailing" constant="49" id="kSj-IH-jOf"/>
+                            <constraint firstItem="AkS-d5-RKD" firstAttribute="top" secondItem="EyE-TZ-gco" secondAttribute="top" id="sIW-fk-nZU"/>
+                            <constraint firstItem="AkS-d5-RKD" firstAttribute="top" secondItem="EyE-TZ-gco" secondAttribute="top" id="xqj-EP-Pq3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EyE-TZ-gco"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="WELCOME" id="GSX-M6-1Eu">
+                        <barButtonItem key="rightBarButtonItem" title="View My Exercise Calendar" id="OUH-e7-obW">
+                            <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="GoToViewCalendar:" destination="NEE-dF-iSj" id="Fsn-IC-VyP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btn1" destination="5ZA-Hh-TxW" id="LqR-Jv-Ekh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qq0-AP-kJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2580" y="723.68815592203907"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kAf-Ep-Ja0">
+            <objects>
+                <viewController id="wPd-kq-kT4" customClass="STEP1ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nI1-X0-vX6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bicep-curl.gif" translatesAutoresizingMaskIntoConstraints="NO" id="9QY-et-NIs">
+                                <rect key="frame" x="67" y="112" width="279" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="7KE-84-8uS"/>
+                                    <constraint firstAttribute="height" constant="163" id="Dxf-M1-wkm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zr2-N0-Rfb">
+                                <rect key="frame" x="34" y="283" width="346" height="329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="307" id="gkM-w8-wj2"/>
+                                    <constraint firstAttribute="height" constant="329" id="yMm-69-tkK"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Step 1: ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Plank To Dolphin">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="30" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="19" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Start in a plank position with your hands together, your body balancing on your arms and toes. Your feet need to be hip-width apart, toes on the floor
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">As you lift your hips little by little, take small steps forward which will lead to your hips in a high pike position.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Move back slowly to the starting position.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Finish the exercise with 3 sets and 5 reps.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzW-Xg-J64">
+                                <rect key="frame" x="100" y="800" width="213" height="40"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="H96-9x-aZ8"/>
+                                    <constraint firstAttribute="height" constant="40" id="dUU-Z7-eUh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xt1-0z-ruk" kind="show" id="hjY-jW-JvK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zr2-N0-Rfb" firstAttribute="leading" secondItem="kzh-fR-NZb" secondAttribute="leading" constant="34" id="1tf-mu-ECX"/>
+                            <constraint firstItem="kzh-fR-NZb" firstAttribute="trailing" secondItem="MzW-Xg-J64" secondAttribute="trailing" constant="101" id="EKV-zF-zAL"/>
+                            <constraint firstItem="9QY-et-NIs" firstAttribute="leading" secondItem="kzh-fR-NZb" secondAttribute="leading" constant="67" id="JpY-by-46c"/>
+                            <constraint firstItem="kzh-fR-NZb" firstAttribute="trailing" secondItem="9QY-et-NIs" secondAttribute="trailing" constant="68" id="Ofo-xy-ZTh"/>
+                            <constraint firstItem="kzh-fR-NZb" firstAttribute="trailing" secondItem="Zr2-N0-Rfb" secondAttribute="trailing" constant="34" id="RUC-4B-uAY"/>
+                            <constraint firstItem="9QY-et-NIs" firstAttribute="top" secondItem="kzh-fR-NZb" secondAttribute="top" constant="24" id="fw5-36-eLZ"/>
+                            <constraint firstItem="kzh-fR-NZb" firstAttribute="bottom" secondItem="MzW-Xg-J64" secondAttribute="bottom" constant="22" id="iJH-fK-moi"/>
+                            <constraint firstItem="MzW-Xg-J64" firstAttribute="leading" secondItem="kzh-fR-NZb" secondAttribute="leading" constant="100" id="vtQ-64-S5C"/>
+                            <constraint firstItem="Zr2-N0-Rfb" firstAttribute="top" secondItem="9QY-et-NIs" secondAttribute="bottom" constant="8" id="xQ2-mP-KZu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kzh-fR-NZb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fcS-hp-Kcx"/>
+                    <connections>
+                        <outlet property="btn11" destination="MzW-Xg-J64" id="GCj-ri-1hD"/>
+                        <outlet property="variableDurationImageView" destination="9QY-et-NIs" id="G7S-pG-VXJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8T2-Ix-Uj2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4245.6000000000004" y="690.40479760119945"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hyg-Oo-4im">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eMp-Li-yei" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="J8p-bW-kEE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NEE-dF-iSj" kind="relationship" relationship="rootViewController" id="yON-8Y-mRK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcX-js-dS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1640.8" y="723.68815592203907"/>
+        </scene>
+        <!--Step2 View Controller-->
+        <scene sceneID="aVb-O6-fKG">
+            <objects>
+                <viewController id="xt1-0z-ruk" customClass="Step2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s3Z-IW-4b6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bicep-curl.gif" translatesAutoresizingMaskIntoConstraints="NO" id="HPx-9m-0NG">
+                                <rect key="frame" x="67" y="109" width="240" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="OCu-Lg-gzU"/>
+                                    <constraint firstAttribute="width" constant="240" id="W2p-Q5-7a8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2I-iF-fLG">
+                                <rect key="frame" x="34" y="280" width="307" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="307" id="7sz-jd-vVp"/>
+                                    <constraint firstAttribute="height" constant="338" id="U4K-Tl-gaK"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Step 2: Push-Up">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="19" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">This exercise is one of the best for getting a good pump. You’ve probably done this exercise sometime in your life. Almost everyone knows how to perform this exercise correctly.</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbw-Ne-hzh">
+                                <rect key="frame" x="100" y="438" width="174" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Oae-kG-G3V"/>
+                                    <constraint firstAttribute="width" constant="174" id="iUK-sD-esm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZD4-pX-aWB" kind="show" id="Qj9-by-qAT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ufc-rv-pJp" firstAttribute="trailing" secondItem="y2I-iF-fLG" secondAttribute="trailing" constant="34" id="0Vo-V1-xoT"/>
+                            <constraint firstItem="y2I-iF-fLG" firstAttribute="leading" secondItem="ufc-rv-pJp" secondAttribute="leading" constant="34" id="3BZ-6x-URr"/>
+                            <constraint firstItem="Gbw-Ne-hzh" firstAttribute="top" secondItem="y2I-iF-fLG" secondAttribute="bottom" constant="13" id="8jY-0S-yhm"/>
+                            <constraint firstItem="ufc-rv-pJp" firstAttribute="trailing" secondItem="HPx-9m-0NG" secondAttribute="trailing" constant="68" id="DXM-3K-Gbt"/>
+                            <constraint firstItem="HPx-9m-0NG" firstAttribute="top" secondItem="ufc-rv-pJp" secondAttribute="top" constant="21" id="G56-9o-kMA"/>
+                            <constraint firstItem="Gbw-Ne-hzh" firstAttribute="leading" secondItem="ufc-rv-pJp" secondAttribute="leading" constant="100" id="IOy-wI-XOP"/>
+                            <constraint firstItem="HPx-9m-0NG" firstAttribute="leading" secondItem="ufc-rv-pJp" secondAttribute="leading" constant="67" id="KdV-qF-ej7"/>
+                            <constraint firstItem="y2I-iF-fLG" firstAttribute="top" secondItem="HPx-9m-0NG" secondAttribute="bottom" constant="8" id="L7d-7N-Btb"/>
+                            <constraint firstItem="ufc-rv-pJp" firstAttribute="trailing" secondItem="Gbw-Ne-hzh" secondAttribute="trailing" constant="101" id="dug-J6-vIP"/>
+                            <constraint firstItem="ufc-rv-pJp" firstAttribute="bottom" secondItem="Gbw-Ne-hzh" secondAttribute="bottom" constant="20" id="lbK-N8-j4m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ufc-rv-pJp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eCu-vg-ebf"/>
+                    <connections>
+                        <outlet property="btn11" destination="Gbw-Ne-hzh" id="6sw-ZS-2rv"/>
+                        <outlet property="variableDurationImageView" destination="HPx-9m-0NG" id="7QC-xV-fo8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ea7-Bi-hxj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5509.6000000000004" y="723.68815592203907"/>
+        </scene>
+        <!--Bar Step3 View Controller-->
+        <scene sceneID="xjb-kv-8h7">
+            <objects>
+                <viewController id="ZD4-pX-aWB" customClass="EZBarStep3ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3SS-Pv-tY6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bicep-curl.gif" translatesAutoresizingMaskIntoConstraints="NO" id="D1C-1m-FHA">
+                                <rect key="frame" x="67" y="109" width="279" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="EBO-hZ-3mm"/>
+                                    <constraint firstAttribute="height" constant="163" id="dgU-Nl-qs1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHV-yx-IBw">
+                                <rect key="frame" x="34" y="280" width="346" height="509"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="338" id="TAn-oZ-dAx"/>
+                                    <constraint firstAttribute="width" constant="307" id="cz4-xM-pbP"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Step 3:">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Plank Tap">
+                                        <attributes>
+                                            <color key="NSColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="Avenir-Book"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Begin in the plank position, arms straight and palms under the shoulders.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Touch your right hand to your left shoulder and return it to the ground, keeping your abs engaged throughout the movement.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Repeat with the opposite hand to finish a rep.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS4-eT-tsp">
+                                <rect key="frame" x="100" y="802" width="213" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="pf3-qZ-LIg"/>
+                                    <constraint firstAttribute="height" constant="40" id="zNl-17-Xlf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KJa-91-7OU" kind="show" id="haJ-cp-jS8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="D1C-1m-FHA" firstAttribute="leading" secondItem="IXB-xW-LfC" secondAttribute="leading" constant="67" id="4Pz-mK-MXK"/>
+                            <constraint firstItem="uHV-yx-IBw" firstAttribute="leading" secondItem="IXB-xW-LfC" secondAttribute="leading" constant="34" id="Ayt-8P-thu"/>
+                            <constraint firstItem="wS4-eT-tsp" firstAttribute="top" secondItem="uHV-yx-IBw" secondAttribute="bottom" constant="13" id="TSc-kD-HfW"/>
+                            <constraint firstItem="IXB-xW-LfC" firstAttribute="trailing" secondItem="D1C-1m-FHA" secondAttribute="trailing" constant="68" id="WTP-PF-k59"/>
+                            <constraint firstItem="uHV-yx-IBw" firstAttribute="top" secondItem="D1C-1m-FHA" secondAttribute="bottom" constant="8" id="Z8r-wa-12G"/>
+                            <constraint firstItem="wS4-eT-tsp" firstAttribute="leading" secondItem="IXB-xW-LfC" secondAttribute="leading" constant="100" id="gMt-fB-HxF"/>
+                            <constraint firstItem="IXB-xW-LfC" firstAttribute="trailing" secondItem="uHV-yx-IBw" secondAttribute="trailing" constant="34" id="jbX-jd-3O6"/>
+                            <constraint firstItem="IXB-xW-LfC" firstAttribute="trailing" secondItem="wS4-eT-tsp" secondAttribute="trailing" constant="101" id="kYZ-3D-4UO"/>
+                            <constraint firstItem="D1C-1m-FHA" firstAttribute="top" secondItem="IXB-xW-LfC" secondAttribute="top" constant="21" id="mkC-Fp-MdI"/>
+                            <constraint firstItem="IXB-xW-LfC" firstAttribute="bottom" secondItem="wS4-eT-tsp" secondAttribute="bottom" constant="20" id="rjp-nK-xiz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IXB-xW-LfC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sqb-8j-rGJ"/>
+                    <connections>
+                        <outlet property="btn11" destination="wS4-eT-tsp" id="RTF-iP-gZI"/>
+                        <outlet property="variableDurationImageView" destination="D1C-1m-FHA" id="dsO-1h-PKv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaY-0k-BcB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6295" y="1452"/>
+        </scene>
+        <!--Biceps Curl-->
+        <scene sceneID="S5p-AJ-Z1R">
+            <objects>
+                <viewController storyboardIdentifier="Step4ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KJa-91-7OU" customClass="Step4ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="htx-nS-gaY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bicep-curl.gif" translatesAutoresizingMaskIntoConstraints="NO" id="3a3-Ha-7pk">
+                                <rect key="frame" x="67" y="109" width="279" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="aXO-Ba-fxA"/>
+                                    <constraint firstAttribute="width" constant="240" id="vWz-0J-a5g"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNr-Xb-bEL">
+                                <rect key="frame" x="34" y="280" width="346" height="509"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="338" id="Y7a-EH-D1l"/>
+                                    <constraint firstAttribute="width" constant="307" id="sM7-tc-83H"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Step 4:">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Bicycle Crunch">
+                                        <attributes>
+                                            <color key="NSColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="36" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Start the exercise by lying down on your back with your knees lifted in a 90-degree angle at the knee and hip joints. Your hands need to be resting behind your head.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Lift your torso and simultaneously twist your left elbow to your right knee and extend your left leg.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Repeat everything with the opposite hand or leg to finish the rep
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Do the exercise 10-20 reps.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0f-2c-z5f">
+                                <rect key="frame" x="100" y="802" width="213" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="RyF-Gp-79H"/>
+                                    <constraint firstAttribute="height" constant="40" id="zXM-bv-Gnt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yk2-Qv-tha" kind="show" id="x1j-Bl-nMV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="y0f-2c-z5f" firstAttribute="top" secondItem="FNr-Xb-bEL" secondAttribute="bottom" constant="13" id="4pL-Bj-6UV"/>
+                            <constraint firstItem="oy6-32-718" firstAttribute="trailing" secondItem="3a3-Ha-7pk" secondAttribute="trailing" constant="68" id="DN6-pc-Z98"/>
+                            <constraint firstItem="FNr-Xb-bEL" firstAttribute="top" secondItem="3a3-Ha-7pk" secondAttribute="bottom" constant="8" id="PRO-9K-r3y"/>
+                            <constraint firstItem="3a3-Ha-7pk" firstAttribute="top" secondItem="oy6-32-718" secondAttribute="top" constant="21" id="aag-nY-e8M"/>
+                            <constraint firstItem="y0f-2c-z5f" firstAttribute="leading" secondItem="oy6-32-718" secondAttribute="leading" constant="100" id="gzg-la-Rnk"/>
+                            <constraint firstItem="oy6-32-718" firstAttribute="trailing" secondItem="FNr-Xb-bEL" secondAttribute="trailing" constant="34" id="ig9-lY-sC7"/>
+                            <constraint firstItem="oy6-32-718" firstAttribute="bottom" secondItem="y0f-2c-z5f" secondAttribute="bottom" constant="20" id="oKh-aP-nkY"/>
+                            <constraint firstItem="FNr-Xb-bEL" firstAttribute="leading" secondItem="oy6-32-718" secondAttribute="leading" constant="34" id="qNy-Wr-hbh"/>
+                            <constraint firstItem="oy6-32-718" firstAttribute="trailing" secondItem="y0f-2c-z5f" secondAttribute="trailing" constant="101" id="tZ5-NT-AXp"/>
+                            <constraint firstItem="3a3-Ha-7pk" firstAttribute="leading" secondItem="oy6-32-718" secondAttribute="leading" constant="67" id="tb9-Ac-Vnq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oy6-32-718"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Biceps Curl" id="MBl-a8-VGE"/>
+                    <connections>
+                        <outlet property="btn11" destination="y0f-2c-z5f" id="yX5-0G-gk7"/>
+                        <outlet property="variableDurationImageView" destination="3a3-Ha-7pk" id="5pg-Iq-wJ1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yf3-xl-iOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7415" y="1481"/>
+        </scene>
+        <!--Step5 View Controller-->
+        <scene sceneID="sME-9x-Qn0">
+            <objects>
+                <viewController id="Yk2-Qv-tha" customClass="Step5ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EY7-Vg-UKx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bicep-curl.gif" translatesAutoresizingMaskIntoConstraints="NO" id="oWK-Tk-lba">
+                                <rect key="frame" x="67" y="109" width="240" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="gFn-B4-Ygt"/>
+                                    <constraint firstAttribute="height" constant="163" id="kJx-8A-8TT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UU9-d0-iDQ">
+                                <rect key="frame" x="34" y="280" width="307" height="367"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="338" id="0L7-b6-eDM"/>
+                                    <constraint firstAttribute="width" constant="307" id="eVr-ST-nrl"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Step 5:">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Lateral Plank Walk">
+                                        <attributes>
+                                            <color key="NSColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="Avenir-Book"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Begin in a high plank position with your abs tight and shoulders above the wrist.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Step with your right foot and right hand to the right side and immediately after, do the same with your left hand and foot.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Take a few “steps” in one direction and after do the same to the opposite.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIs-ha-tcd">
+                                <rect key="frame" x="100" y="660" width="174" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PLg-Hd-aWr"/>
+                                    <constraint firstAttribute="width" constant="174" id="YUM-yi-iiC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0Xu-oN-q3S" kind="show" id="9uN-Cq-yg7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UU9-d0-iDQ" firstAttribute="leading" secondItem="46Q-F2-Egq" secondAttribute="leading" constant="34" id="LFz-WY-sQC"/>
+                            <constraint firstItem="UU9-d0-iDQ" firstAttribute="top" secondItem="oWK-Tk-lba" secondAttribute="bottom" constant="8" id="NJe-zf-v0o"/>
+                            <constraint firstItem="oWK-Tk-lba" firstAttribute="leading" secondItem="46Q-F2-Egq" secondAttribute="leading" constant="67" id="PZ7-Bm-v0n"/>
+                            <constraint firstItem="46Q-F2-Egq" firstAttribute="bottom" secondItem="NIs-ha-tcd" secondAttribute="bottom" constant="20" id="V7o-W9-E6f"/>
+                            <constraint firstItem="NIs-ha-tcd" firstAttribute="top" secondItem="UU9-d0-iDQ" secondAttribute="bottom" constant="13" id="e4t-dW-eH6"/>
+                            <constraint firstItem="oWK-Tk-lba" firstAttribute="top" secondItem="46Q-F2-Egq" secondAttribute="top" constant="21" id="nE8-Wa-K2H"/>
+                            <constraint firstItem="46Q-F2-Egq" firstAttribute="trailing" secondItem="oWK-Tk-lba" secondAttribute="trailing" constant="68" id="pqo-CZ-9A7"/>
+                            <constraint firstItem="NIs-ha-tcd" firstAttribute="leading" secondItem="46Q-F2-Egq" secondAttribute="leading" constant="100" id="qF7-Sa-RTF"/>
+                            <constraint firstItem="46Q-F2-Egq" firstAttribute="trailing" secondItem="UU9-d0-iDQ" secondAttribute="trailing" constant="34" id="tn5-R5-rAq"/>
+                            <constraint firstItem="46Q-F2-Egq" firstAttribute="trailing" secondItem="NIs-ha-tcd" secondAttribute="trailing" constant="101" id="ycQ-wA-r9e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="46Q-F2-Egq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="f0G-PU-K6o"/>
+                    <connections>
+                        <outlet property="variableDurationImageView" destination="oWK-Tk-lba" id="H1C-G8-0BN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t9u-jJ-1QV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8465" y="1681"/>
+        </scene>
+        <!--Step5 View Controller-->
+        <scene sceneID="9j5-g4-5xs">
+            <objects>
+                <viewController id="0ui-gg-3Sr" customClass="Step5ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHM-KX-GK4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bicep-curl.gif" translatesAutoresizingMaskIntoConstraints="NO" id="TIB-va-zbd">
+                                <rect key="frame" x="67" y="65" width="279" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="69e-qu-wlF"/>
+                                    <constraint firstAttribute="width" constant="240" id="u0U-gm-cWi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWR-U9-chA">
+                                <rect key="frame" x="34" y="236" width="346" height="553"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="307" id="OwP-8g-4IA"/>
+                                    <constraint firstAttribute="height" constant="338" id="yQJ-57-p4E"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Step 5:">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Lateral Plank Walk">
+                                        <attributes>
+                                            <color key="NSColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="Avenir-Book"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Begin in a high plank position with your abs tight and shoulders above the wrist.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Step with your right foot and right hand to the right side and immediately after, do the same with your left hand and foot.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Take a few “steps” in one direction and after do the same to the opposite.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="We8-dh-gf0">
+                                <rect key="frame" x="100" y="802" width="213" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fXB-Kj-gbH"/>
+                                    <constraint firstAttribute="width" constant="174" id="sxR-bL-BGc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QiZ-rx-wLi" firstAttribute="trailing" secondItem="We8-dh-gf0" secondAttribute="trailing" constant="101" id="0OY-bf-6fA"/>
+                            <constraint firstItem="QiZ-rx-wLi" firstAttribute="bottom" secondItem="We8-dh-gf0" secondAttribute="bottom" constant="20" id="2uX-zC-6gv"/>
+                            <constraint firstItem="We8-dh-gf0" firstAttribute="leading" secondItem="QiZ-rx-wLi" secondAttribute="leading" constant="100" id="FH0-ZI-MJB"/>
+                            <constraint firstItem="NWR-U9-chA" firstAttribute="leading" secondItem="QiZ-rx-wLi" secondAttribute="leading" constant="34" id="MO2-dB-RQ3"/>
+                            <constraint firstItem="QiZ-rx-wLi" firstAttribute="trailing" secondItem="NWR-U9-chA" secondAttribute="trailing" constant="34" id="NLL-fW-rs3"/>
+                            <constraint firstItem="QiZ-rx-wLi" firstAttribute="trailing" secondItem="TIB-va-zbd" secondAttribute="trailing" constant="68" id="dZy-OK-pNr"/>
+                            <constraint firstItem="We8-dh-gf0" firstAttribute="top" secondItem="NWR-U9-chA" secondAttribute="bottom" constant="13" id="dti-IL-QUi"/>
+                            <constraint firstItem="TIB-va-zbd" firstAttribute="leading" secondItem="QiZ-rx-wLi" secondAttribute="leading" constant="67" id="ly9-KH-Deh"/>
+                            <constraint firstItem="NWR-U9-chA" firstAttribute="top" secondItem="TIB-va-zbd" secondAttribute="bottom" constant="8" id="org-Qa-K5r"/>
+                            <constraint firstItem="TIB-va-zbd" firstAttribute="top" secondItem="QiZ-rx-wLi" secondAttribute="top" constant="21" id="uve-Wj-Fzc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QiZ-rx-wLi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pua-M3-ID7"/>
+                    <connections>
+                        <outlet property="variableDurationImageView" destination="TIB-va-zbd" id="F0O-uP-asJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qSQ-bo-tfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8465" y="1681"/>
+        </scene>
+        <!--Step66 View Controller-->
+        <scene sceneID="tRP-24-Fc5">
+            <objects>
+                <viewController id="0Xu-oN-q3S" customClass="Step66ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N4e-pU-W4O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bicep-curl.gif" translatesAutoresizingMaskIntoConstraints="NO" id="XRN-EP-M55">
+                                <rect key="frame" x="67" y="109" width="279" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="2q2-H7-Vhp"/>
+                                    <constraint firstAttribute="width" constant="240" id="JIA-gs-95r"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcU-cK-tYN">
+                                <rect key="frame" x="34" y="280" width="346" height="460"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="307" id="uqN-ty-cJj"/>
+                                    <constraint firstAttribute="height" constant="338" id="vZF-ro-VaV"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Step 6:">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Boat Pose">
+                                        <attributes>
+                                            <color key="NSColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="36"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="36"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="Avenir-Book"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Lay down on the floor with your legs extended and hands extended behind your head.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Then, move your feet up so that they reach a 90-degree angle at the knees and simultaneously move your upper body up and your hands extending toward the knees. Your palms need to be reaching beyond the knees.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Hold the position for a few breaths and return to the starting position.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.15686" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="18"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DeZ-kk-cTD">
+                                <rect key="frame" x="100" y="753" width="213" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="Dge-qU-Yvt"/>
+                                    <constraint firstAttribute="height" constant="40" id="e7t-Oy-XB4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back To Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="DoneCompleted:" destination="0Xu-oN-q3S" eventType="touchUpInside" id="N0Z-Fw-ena"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XRN-EP-M55" firstAttribute="leading" secondItem="bGX-IN-unY" secondAttribute="leading" constant="67" id="0Sd-n0-EiF"/>
+                            <constraint firstItem="DeZ-kk-cTD" firstAttribute="top" secondItem="TcU-cK-tYN" secondAttribute="bottom" constant="13" id="3MT-vb-04k"/>
+                            <constraint firstItem="bGX-IN-unY" firstAttribute="bottom" secondItem="DeZ-kk-cTD" secondAttribute="bottom" constant="20" id="5ZX-BR-ryk"/>
+                            <constraint firstItem="TcU-cK-tYN" firstAttribute="leading" secondItem="bGX-IN-unY" secondAttribute="leading" constant="34" id="DjQ-fO-DY7"/>
+                            <constraint firstItem="bGX-IN-unY" firstAttribute="trailing" secondItem="XRN-EP-M55" secondAttribute="trailing" constant="68" id="Moo-ns-6bi"/>
+                            <constraint firstItem="bGX-IN-unY" firstAttribute="trailing" secondItem="DeZ-kk-cTD" secondAttribute="trailing" constant="101" id="T4r-Jl-Dnm"/>
+                            <constraint firstItem="XRN-EP-M55" firstAttribute="top" secondItem="bGX-IN-unY" secondAttribute="top" constant="21" id="eiH-h2-cBQ"/>
+                            <constraint firstItem="TcU-cK-tYN" firstAttribute="top" secondItem="XRN-EP-M55" secondAttribute="bottom" constant="8" id="fPe-DR-k8N"/>
+                            <constraint firstItem="DeZ-kk-cTD" firstAttribute="leading" secondItem="bGX-IN-unY" secondAttribute="leading" constant="100" id="psr-U6-Rbf"/>
+                            <constraint firstItem="bGX-IN-unY" firstAttribute="trailing" secondItem="TcU-cK-tYN" secondAttribute="trailing" constant="34" id="uhj-Uu-IAN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bGX-IN-unY"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="mGr-Jd-WNT">
+                        <barButtonItem key="rightBarButtonItem" title="Mark My Day" id="5Md-FS-ZEJ">
+                            <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="calendar:" destination="0Xu-oN-q3S" id="aNS-xY-FeN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="btn11" destination="DeZ-kk-cTD" id="38S-l0-0aZ"/>
+                        <outlet property="variableDurationImageView" destination="XRN-EP-M55" id="aQY-6A-Uf9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RqR-Bq-ANJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9381" y="1776"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bicep-curl.gif" width="16" height="16"/>
+    </resources>
+</document>

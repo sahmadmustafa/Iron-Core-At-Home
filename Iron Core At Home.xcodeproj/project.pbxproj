@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182E7F4524B5533E00468F1B /* Step5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E7F4424B5533E00468F1B /* Step5ViewController.m */; };
+		182E7F4B24B5566900468F1B /* Step66ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E7F4A24B5566900468F1B /* Step66ViewController.m */; };
+		182E7F4D24B5588700468F1B /* 66.gif in Resources */ = {isa = PBXBuildFile; fileRef = 182E7F4C24B5588600468F1B /* 66.gif */; };
+		18A344E024B3D40900189E07 /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3449D24B3D40700189E07 /* FTNotificationIndicator.m */; };
+		18A344E124B3D40900189E07 /* Step2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3449F24B3D40700189E07 /* Step2ViewController.m */; };
+		18A344E224B3D40900189E07 /* STEP1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344A024B3D40700189E07 /* STEP1ViewController.m */; };
+		18A344E324B3D40900189E07 /* BasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A344A124B3D40700189E07 /* BasicViewController.xib */; };
+		18A344E424B3D40900189E07 /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344A424B3D40700189E07 /* FTIndicator.m */; };
+		18A344E524B3D40900189E07 /* kaka.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18A344A724B3D40700189E07 /* kaka.gif */; };
+		18A344E624B3D40900189E07 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344A824B3D40700189E07 /* UIImage+animatedGIF.m */; };
+		18A344E824B3D40900189E07 /* FTProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18A344AB24B3D40700189E07 /* FTProgressIndicator.bundle */; };
+		18A344E924B3D40900189E07 /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344AD24B3D40700189E07 /* FTProgressIndicator.m */; };
+		18A344EA24B3D40900189E07 /* GetStartedNowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344AE24B3D40700189E07 /* GetStartedNowVC.m */; };
+		18A344EB24B3D40900189E07 /* Step4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344AF24B3D40800189E07 /* Step4ViewController.m */; };
+		18A344EC24B3D40900189E07 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344B224B3D40800189E07 /* FTToastIndicator.m */; };
+		18A344ED24B3D40900189E07 /* JTCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344B624B3D40800189E07 /* JTCalendarSettings.m */; };
+		18A344EE24B3D40900189E07 /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344B724B3D40800189E07 /* JTDateHelper.m */; };
+		18A344EF24B3D40900189E07 /* JTCalendarScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344BD24B3D40800189E07 /* JTCalendarScrollManager.m */; };
+		18A344F024B3D40900189E07 /* JTCalendarDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344BE24B3D40800189E07 /* JTCalendarDelegateManager.m */; };
+		18A344F124B3D40900189E07 /* JTCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344C024B3D40800189E07 /* JTCalendarManager.m */; };
+		18A344F224B3D40900189E07 /* JTVerticalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344C524B3D40800189E07 /* JTVerticalCalendarView.m */; };
+		18A344F324B3D40900189E07 /* JTCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344C824B3D40800189E07 /* JTCalendarWeekDayView.m */; };
+		18A344F424B3D40900189E07 /* JTHorizontalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344CA24B3D40800189E07 /* JTHorizontalCalendarView.m */; };
+		18A344F524B3D40900189E07 /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344CB24B3D40800189E07 /* JTCalendarWeekView.m */; };
+		18A344F624B3D40900189E07 /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344CD24B3D40800189E07 /* JTCalendarDayView.m */; };
+		18A344F724B3D40900189E07 /* JTCalendarPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344CE24B3D40800189E07 /* JTCalendarPageView.m */; };
+		18A344F824B3D40900189E07 /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344D024B3D40800189E07 /* JTCalendarMenuView.m */; };
+		18A344F924B3D40900189E07 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344D924B3D40800189E07 /* BasicViewController.m */; };
+		18A344FA24B3D40900189E07 /* EZBarStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A344DE24B3D40800189E07 /* EZBarStep3ViewController.m */; };
+		18B978EE24AFD49F00CB65E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B978ED24AFD49F00CB65E2 /* AppDelegate.m */; };
+		18B978F124AFD49F00CB65E2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B978F024AFD49F00CB65E2 /* SceneDelegate.m */; };
+		18B978F724AFD49F00CB65E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B978F524AFD49F00CB65E2 /* Main.storyboard */; };
+		18B978F924AFD4A100CB65E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B978F824AFD4A100CB65E2 /* Assets.xcassets */; };
+		18B978FC24AFD4A100CB65E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B978FA24AFD4A100CB65E2 /* LaunchScreen.storyboard */; };
+		18B978FF24AFD4A100CB65E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B978FE24AFD4A100CB65E2 /* main.m */; };
+		18B9790924AFD4A200CB65E2 /* Iron_Core_At_HomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9790824AFD4A200CB65E2 /* Iron_Core_At_HomeTests.m */; };
+		18B9791424AFD4A200CB65E2 /* Iron_Core_At_HomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9791324AFD4A200CB65E2 /* Iron_Core_At_HomeUITests.m */; };
+		18B9792D24AFD4BB00CB65E2 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792324AFD4BB00CB65E2 /* 8.jpg */; };
+		18B9792E24AFD4BB00CB65E2 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792424AFD4BB00CB65E2 /* 4.gif */; };
+		18B9792F24AFD4BB00CB65E2 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792524AFD4BB00CB65E2 /* 5.gif */; };
+		18B9793024AFD4BB00CB65E2 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792624AFD4BB00CB65E2 /* 6.gif */; };
+		18B9793124AFD4BB00CB65E2 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792724AFD4BB00CB65E2 /* 2.gif */; };
+		18B9793224AFD4BB00CB65E2 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792824AFD4BB00CB65E2 /* 3.gif */; };
+		18B9793324AFD4BB00CB65E2 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792924AFD4BB00CB65E2 /* 1.gif */; };
+		18B9793424AFD4BB00CB65E2 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792A24AFD4BB00CB65E2 /* 9.gif */; };
+		18B9793524AFD4BB00CB65E2 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B9792B24AFD4BB00CB65E2 /* 7.jpg */; };
+		18B9793724AFD4E900CB65E2 /* 0-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18B9793624AFD4E900CB65E2 /* 0-2.jpeg */; };
+		18B9793924AFD5F600CB65E2 /* Iron Core At Home.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 18B9793824AFD5F600CB65E2 /* Iron Core At Home.rtfd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B9790524AFD4A200CB65E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B978E124AFD49E00CB65E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B978E824AFD49F00CB65E2;
+			remoteInfo = "Iron Core At Home";
+		};
+		18B9791024AFD4A200CB65E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B978E124AFD49E00CB65E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B978E824AFD49F00CB65E2;
+			remoteInfo = "Iron Core At Home";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182E7F4324B5533E00468F1B /* Step5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Step5ViewController.h; sourceTree = "<group>"; };
+		182E7F4424B5533E00468F1B /* Step5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Step5ViewController.m; sourceTree = "<group>"; };
+		182E7F4924B5566900468F1B /* Step66ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Step66ViewController.h; sourceTree = "<group>"; };
+		182E7F4A24B5566900468F1B /* Step66ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Step66ViewController.m; sourceTree = "<group>"; };
+		182E7F4C24B5588600468F1B /* 66.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 66.gif; sourceTree = "<group>"; };
+		18A3449D24B3D40700189E07 /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
+		18A3449E24B3D40700189E07 /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
+		18A3449F24B3D40700189E07 /* Step2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step2ViewController.m; sourceTree = "<group>"; };
+		18A344A024B3D40700189E07 /* STEP1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEP1ViewController.m; sourceTree = "<group>"; };
+		18A344A124B3D40700189E07 /* BasicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicViewController.xib; sourceTree = "<group>"; };
+		18A344A224B3D40700189E07 /* Step4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step4ViewController.h; sourceTree = "<group>"; };
+		18A344A424B3D40700189E07 /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
+		18A344A624B3D40700189E07 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		18A344A724B3D40700189E07 /* kaka.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kaka.gif; sourceTree = "<group>"; };
+		18A344A824B3D40700189E07 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		18A344AB24B3D40700189E07 /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FTProgressIndicator.bundle; sourceTree = "<group>"; };
+		18A344AC24B3D40700189E07 /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
+		18A344AD24B3D40700189E07 /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
+		18A344AE24B3D40700189E07 /* GetStartedNowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetStartedNowVC.m; sourceTree = "<group>"; };
+		18A344AF24B3D40800189E07 /* Step4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step4ViewController.m; sourceTree = "<group>"; };
+		18A344B024B3D40800189E07 /* EZBarStep3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBarStep3ViewController.h; sourceTree = "<group>"; };
+		18A344B224B3D40800189E07 /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		18A344B324B3D40800189E07 /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
+		18A344B424B3D40800189E07 /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
+		18A344B624B3D40800189E07 /* JTCalendarSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarSettings.m; sourceTree = "<group>"; };
+		18A344B724B3D40800189E07 /* JTDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDateHelper.m; sourceTree = "<group>"; };
+		18A344B824B3D40800189E07 /* JTCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarManager.h; sourceTree = "<group>"; };
+		18A344B924B3D40800189E07 /* JTCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendar.h; sourceTree = "<group>"; };
+		18A344BB24B3D40800189E07 /* JTCalendarDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegateManager.h; sourceTree = "<group>"; };
+		18A344BC24B3D40800189E07 /* JTCalendarScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarScrollManager.h; sourceTree = "<group>"; };
+		18A344BD24B3D40800189E07 /* JTCalendarScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarScrollManager.m; sourceTree = "<group>"; };
+		18A344BE24B3D40800189E07 /* JTCalendarDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDelegateManager.m; sourceTree = "<group>"; };
+		18A344BF24B3D40800189E07 /* JTCalendarSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarSettings.h; sourceTree = "<group>"; };
+		18A344C024B3D40800189E07 /* JTCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarManager.m; sourceTree = "<group>"; };
+		18A344C124B3D40800189E07 /* JTDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDateHelper.h; sourceTree = "<group>"; };
+		18A344C224B3D40800189E07 /* JTCalendarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegate.h; sourceTree = "<group>"; };
+		18A344C424B3D40800189E07 /* JTCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDayView.h; sourceTree = "<group>"; };
+		18A344C524B3D40800189E07 /* JTVerticalCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTVerticalCalendarView.m; sourceTree = "<group>"; };
+		18A344C624B3D40800189E07 /* JTCalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekView.h; sourceTree = "<group>"; };
+		18A344C724B3D40800189E07 /* JTCalendarPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarPageView.h; sourceTree = "<group>"; };
+		18A344C824B3D40800189E07 /* JTCalendarWeekDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekDayView.m; sourceTree = "<group>"; };
+		18A344C924B3D40800189E07 /* JTCalendarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarMenuView.h; sourceTree = "<group>"; };
+		18A344CA24B3D40800189E07 /* JTHorizontalCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHorizontalCalendarView.m; sourceTree = "<group>"; };
+		18A344CB24B3D40800189E07 /* JTCalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekView.m; sourceTree = "<group>"; };
+		18A344CC24B3D40800189E07 /* JTVerticalCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTVerticalCalendarView.h; sourceTree = "<group>"; };
+		18A344CD24B3D40800189E07 /* JTCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDayView.m; sourceTree = "<group>"; };
+		18A344CE24B3D40800189E07 /* JTCalendarPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarPageView.m; sourceTree = "<group>"; };
+		18A344CF24B3D40800189E07 /* JTHorizontalCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHorizontalCalendarView.h; sourceTree = "<group>"; };
+		18A344D024B3D40800189E07 /* JTCalendarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarMenuView.m; sourceTree = "<group>"; };
+		18A344D124B3D40800189E07 /* JTCalendarWeekDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekDayView.h; sourceTree = "<group>"; };
+		18A344D324B3D40800189E07 /* JTCalendarWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeek.h; sourceTree = "<group>"; };
+		18A344D424B3D40800189E07 /* JTContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTContent.h; sourceTree = "<group>"; };
+		18A344D524B3D40800189E07 /* JTCalendarPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarPage.h; sourceTree = "<group>"; };
+		18A344D624B3D40800189E07 /* JTCalendarWeekDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekDay.h; sourceTree = "<group>"; };
+		18A344D724B3D40800189E07 /* JTCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDay.h; sourceTree = "<group>"; };
+		18A344D824B3D40800189E07 /* JTMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMenu.h; sourceTree = "<group>"; };
+		18A344D924B3D40800189E07 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		18A344DA24B3D40800189E07 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		18A344DB24B3D40800189E07 /* STEP1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEP1ViewController.h; sourceTree = "<group>"; };
+		18A344DC24B3D40800189E07 /* GetStartedNowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetStartedNowVC.h; sourceTree = "<group>"; };
+		18A344DD24B3D40800189E07 /* Step2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step2ViewController.h; sourceTree = "<group>"; };
+		18A344DE24B3D40800189E07 /* EZBarStep3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBarStep3ViewController.m; sourceTree = "<group>"; };
+		18B978E924AFD49F00CB65E2 /* Iron Core At Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iron Core At Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B978EC24AFD49F00CB65E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B978ED24AFD49F00CB65E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B978EF24AFD49F00CB65E2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18B978F024AFD49F00CB65E2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18B978F624AFD49F00CB65E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B978F824AFD4A100CB65E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B978FB24AFD4A100CB65E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B978FD24AFD4A100CB65E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B978FE24AFD4A100CB65E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B9790424AFD4A200CB65E2 /* Iron Core At HomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iron Core At HomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B9790824AFD4A200CB65E2 /* Iron_Core_At_HomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iron_Core_At_HomeTests.m; sourceTree = "<group>"; };
+		18B9790A24AFD4A200CB65E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B9790F24AFD4A200CB65E2 /* Iron Core At HomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iron Core At HomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B9791324AFD4A200CB65E2 /* Iron_Core_At_HomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iron_Core_At_HomeUITests.m; sourceTree = "<group>"; };
+		18B9791524AFD4A200CB65E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B9792324AFD4BB00CB65E2 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		18B9792424AFD4BB00CB65E2 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		18B9792524AFD4BB00CB65E2 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		18B9792624AFD4BB00CB65E2 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
+		18B9792724AFD4BB00CB65E2 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		18B9792824AFD4BB00CB65E2 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		18B9792924AFD4BB00CB65E2 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		18B9792A24AFD4BB00CB65E2 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9.gif; sourceTree = "<group>"; };
+		18B9792B24AFD4BB00CB65E2 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		18B9793624AFD4E900CB65E2 /* 0-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0-2.jpeg"; sourceTree = "<group>"; };
+		18B9793824AFD5F600CB65E2 /* Iron Core At Home.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "Iron Core At Home.rtfd"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B978E624AFD49F00CB65E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B9790124AFD4A200CB65E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B9790C24AFD4A200CB65E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A3449B24B3D3EC00189E07 /* All VCs */ = {
+			isa = PBXGroup;
+			children = (
+				18A344DA24B3D40800189E07 /* BasicViewController.h */,
+				18A344D924B3D40800189E07 /* BasicViewController.m */,
+				18A344A124B3D40700189E07 /* BasicViewController.xib */,
+				18A344B024B3D40800189E07 /* EZBarStep3ViewController.h */,
+				18A344DE24B3D40800189E07 /* EZBarStep3ViewController.m */,
+				18A344B424B3D40800189E07 /* FTIndicator.h */,
+				18A344A424B3D40700189E07 /* FTIndicator.m */,
+				182E7F4C24B5588600468F1B /* 66.gif */,
+				18A3449C24B3D40700189E07 /* FTNotificationIndicator */,
+				18A344AA24B3D40700189E07 /* FTProgressIndicator */,
+				18A344B124B3D40800189E07 /* FTToastIndicator */,
+				18A344DC24B3D40800189E07 /* GetStartedNowVC.h */,
+				18A344AE24B3D40700189E07 /* GetStartedNowVC.m */,
+				18A344A524B3D40700189E07 /* ImageAnimater */,
+				18A344B524B3D40800189E07 /* JTCalendar */,
+				18A344DB24B3D40800189E07 /* STEP1ViewController.h */,
+				18A344A024B3D40700189E07 /* STEP1ViewController.m */,
+				18A344DD24B3D40800189E07 /* Step2ViewController.h */,
+				18A3449F24B3D40700189E07 /* Step2ViewController.m */,
+				18A344A224B3D40700189E07 /* Step4ViewController.h */,
+				18A344AF24B3D40800189E07 /* Step4ViewController.m */,
+				182E7F4324B5533E00468F1B /* Step5ViewController.h */,
+				182E7F4424B5533E00468F1B /* Step5ViewController.m */,
+				182E7F4924B5566900468F1B /* Step66ViewController.h */,
+				182E7F4A24B5566900468F1B /* Step66ViewController.m */,
+			);
+			path = "All VCs";
+			sourceTree = "<group>";
+		};
+		18A3449C24B3D40700189E07 /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				18A3449D24B3D40700189E07 /* FTNotificationIndicator.m */,
+				18A3449E24B3D40700189E07 /* FTNotificationIndicator.h */,
+			);
+			path = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		18A344A524B3D40700189E07 /* ImageAnimater */ = {
+			isa = PBXGroup;
+			children = (
+				18A344A624B3D40700189E07 /* UIImage+animatedGIF.h */,
+				18A344A724B3D40700189E07 /* kaka.gif */,
+				18A344A824B3D40700189E07 /* UIImage+animatedGIF.m */,
+			);
+			path = ImageAnimater;
+			sourceTree = "<group>";
+		};
+		18A344AA24B3D40700189E07 /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				18A344AB24B3D40700189E07 /* FTProgressIndicator.bundle */,
+				18A344AC24B3D40700189E07 /* FTProgressIndicator.h */,
+				18A344AD24B3D40700189E07 /* FTProgressIndicator.m */,
+			);
+			path = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		18A344B124B3D40800189E07 /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				18A344B224B3D40800189E07 /* FTToastIndicator.m */,
+				18A344B324B3D40800189E07 /* FTToastIndicator.h */,
+			);
+			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		18A344B524B3D40800189E07 /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				18A344B624B3D40800189E07 /* JTCalendarSettings.m */,
+				18A344B724B3D40800189E07 /* JTDateHelper.m */,
+				18A344B824B3D40800189E07 /* JTCalendarManager.h */,
+				18A344B924B3D40800189E07 /* JTCalendar.h */,
+				18A344BA24B3D40800189E07 /* Managers */,
+				18A344BF24B3D40800189E07 /* JTCalendarSettings.h */,
+				18A344C024B3D40800189E07 /* JTCalendarManager.m */,
+				18A344C124B3D40800189E07 /* JTDateHelper.h */,
+				18A344C224B3D40800189E07 /* JTCalendarDelegate.h */,
+				18A344C324B3D40800189E07 /* Views */,
+				18A344D224B3D40800189E07 /* Protocols */,
+			);
+			path = JTCalendar;
+			sourceTree = "<group>";
+		};
+		18A344BA24B3D40800189E07 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18A344BB24B3D40800189E07 /* JTCalendarDelegateManager.h */,
+				18A344BC24B3D40800189E07 /* JTCalendarScrollManager.h */,
+				18A344BD24B3D40800189E07 /* JTCalendarScrollManager.m */,
+				18A344BE24B3D40800189E07 /* JTCalendarDelegateManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18A344C324B3D40800189E07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18A344C424B3D40800189E07 /* JTCalendarDayView.h */,
+				18A344C524B3D40800189E07 /* JTVerticalCalendarView.m */,
+				18A344C624B3D40800189E07 /* JTCalendarWeekView.h */,
+				18A344C724B3D40800189E07 /* JTCalendarPageView.h */,
+				18A344C824B3D40800189E07 /* JTCalendarWeekDayView.m */,
+				18A344C924B3D40800189E07 /* JTCalendarMenuView.h */,
+				18A344CA24B3D40800189E07 /* JTHorizontalCalendarView.m */,
+				18A344CB24B3D40800189E07 /* JTCalendarWeekView.m */,
+				18A344CC24B3D40800189E07 /* JTVerticalCalendarView.h */,
+				18A344CD24B3D40800189E07 /* JTCalendarDayView.m */,
+				18A344CE24B3D40800189E07 /* JTCalendarPageView.m */,
+				18A344CF24B3D40800189E07 /* JTHorizontalCalendarView.h */,
+				18A344D024B3D40800189E07 /* JTCalendarMenuView.m */,
+				18A344D124B3D40800189E07 /* JTCalendarWeekDayView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18A344D224B3D40800189E07 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				18A344D324B3D40800189E07 /* JTCalendarWeek.h */,
+				18A344D424B3D40800189E07 /* JTContent.h */,
+				18A344D524B3D40800189E07 /* JTCalendarPage.h */,
+				18A344D624B3D40800189E07 /* JTCalendarWeekDay.h */,
+				18A344D724B3D40800189E07 /* JTCalendarDay.h */,
+				18A344D824B3D40800189E07 /* JTMenu.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		18B978E024AFD49E00CB65E2 = {
+			isa = PBXGroup;
+			children = (
+				18B978EB24AFD49F00CB65E2 /* Iron Core At Home */,
+				18B9790724AFD4A200CB65E2 /* Iron Core At HomeTests */,
+				18B9791224AFD4A200CB65E2 /* Iron Core At HomeUITests */,
+				18B978EA24AFD49F00CB65E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B978EA24AFD49F00CB65E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B978E924AFD49F00CB65E2 /* Iron Core At Home.app */,
+				18B9790424AFD4A200CB65E2 /* Iron Core At HomeTests.xctest */,
+				18B9790F24AFD4A200CB65E2 /* Iron Core At HomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B978EB24AFD49F00CB65E2 /* Iron Core At Home */ = {
+			isa = PBXGroup;
+			children = (
+				18B978EC24AFD49F00CB65E2 /* AppDelegate.h */,
+				18B978ED24AFD49F00CB65E2 /* AppDelegate.m */,
+				18B978EF24AFD49F00CB65E2 /* SceneDelegate.h */,
+				18B978F024AFD49F00CB65E2 /* SceneDelegate.m */,
+				18A3449B24B3D3EC00189E07 /* All VCs */,
+				18B9793824AFD5F600CB65E2 /* Iron Core At Home.rtfd */,
+				18B9793624AFD4E900CB65E2 /* 0-2.jpeg */,
+				18B9792124AFD4BB00CB65E2 /*  Iron Core at Home */,
+				18B978F524AFD49F00CB65E2 /* Main.storyboard */,
+				18B978F824AFD4A100CB65E2 /* Assets.xcassets */,
+				18B978FA24AFD4A100CB65E2 /* LaunchScreen.storyboard */,
+				18B978FD24AFD4A100CB65E2 /* Info.plist */,
+				18B978FE24AFD4A100CB65E2 /* main.m */,
+			);
+			path = "Iron Core At Home";
+			sourceTree = "<group>";
+		};
+		18B9790724AFD4A200CB65E2 /* Iron Core At HomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B9790824AFD4A200CB65E2 /* Iron_Core_At_HomeTests.m */,
+				18B9790A24AFD4A200CB65E2 /* Info.plist */,
+			);
+			path = "Iron Core At HomeTests";
+			sourceTree = "<group>";
+		};
+		18B9791224AFD4A200CB65E2 /* Iron Core At HomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B9791324AFD4A200CB65E2 /* Iron_Core_At_HomeUITests.m */,
+				18B9791524AFD4A200CB65E2 /* Info.plist */,
+			);
+			path = "Iron Core At HomeUITests";
+			sourceTree = "<group>";
+		};
+		18B9792124AFD4BB00CB65E2 /*  Iron Core at Home */ = {
+			isa = PBXGroup;
+			children = (
+				18B9792324AFD4BB00CB65E2 /* 8.jpg */,
+				18B9792424AFD4BB00CB65E2 /* 4.gif */,
+				18B9792524AFD4BB00CB65E2 /* 5.gif */,
+				18B9792624AFD4BB00CB65E2 /* 6.gif */,
+				18B9792724AFD4BB00CB65E2 /* 2.gif */,
+				18B9792824AFD4BB00CB65E2 /* 3.gif */,
+				18B9792924AFD4BB00CB65E2 /* 1.gif */,
+				18B9792A24AFD4BB00CB65E2 /* 9.gif */,
+				18B9792B24AFD4BB00CB65E2 /* 7.jpg */,
+			);
+			path = " Iron Core at Home";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B978E824AFD49F00CB65E2 /* Iron Core At Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B9791824AFD4A200CB65E2 /* Build configuration list for PBXNativeTarget "Iron Core At Home" */;
+			buildPhases = (
+				18B978E524AFD49F00CB65E2 /* Sources */,
+				18B978E624AFD49F00CB65E2 /* Frameworks */,
+				18B978E724AFD49F00CB65E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Iron Core At Home";
+			productName = "Iron Core At Home";
+			productReference = 18B978E924AFD49F00CB65E2 /* Iron Core At Home.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B9790324AFD4A200CB65E2 /* Iron Core At HomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B9791B24AFD4A200CB65E2 /* Build configuration list for PBXNativeTarget "Iron Core At HomeTests" */;
+			buildPhases = (
+				18B9790024AFD4A200CB65E2 /* Sources */,
+				18B9790124AFD4A200CB65E2 /* Frameworks */,
+				18B9790224AFD4A200CB65E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B9790624AFD4A200CB65E2 /* PBXTargetDependency */,
+			);
+			name = "Iron Core At HomeTests";
+			productName = "Iron Core At HomeTests";
+			productReference = 18B9790424AFD4A200CB65E2 /* Iron Core At HomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B9790E24AFD4A200CB65E2 /* Iron Core At HomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B9791E24AFD4A200CB65E2 /* Build configuration list for PBXNativeTarget "Iron Core At HomeUITests" */;
+			buildPhases = (
+				18B9790B24AFD4A200CB65E2 /* Sources */,
+				18B9790C24AFD4A200CB65E2 /* Frameworks */,
+				18B9790D24AFD4A200CB65E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B9791124AFD4A200CB65E2 /* PBXTargetDependency */,
+			);
+			name = "Iron Core At HomeUITests";
+			productName = "Iron Core At HomeUITests";
+			productReference = 18B9790F24AFD4A200CB65E2 /* Iron Core At HomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B978E124AFD49E00CB65E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mhjy;
+				TargetAttributes = {
+					18B978E824AFD49F00CB65E2 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					18B9790324AFD4A200CB65E2 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 18B978E824AFD49F00CB65E2;
+					};
+					18B9790E24AFD4A200CB65E2 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 18B978E824AFD49F00CB65E2;
+					};
+				};
+			};
+			buildConfigurationList = 18B978E424AFD49E00CB65E2 /* Build configuration list for PBXProject "Iron Core At Home" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B978E024AFD49E00CB65E2;
+			productRefGroup = 18B978EA24AFD49F00CB65E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B978E824AFD49F00CB65E2 /* Iron Core At Home */,
+				18B9790324AFD4A200CB65E2 /* Iron Core At HomeTests */,
+				18B9790E24AFD4A200CB65E2 /* Iron Core At HomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B978E724AFD49F00CB65E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B9793324AFD4BB00CB65E2 /* 1.gif in Resources */,
+				18B9792D24AFD4BB00CB65E2 /* 8.jpg in Resources */,
+				18B978FC24AFD4A100CB65E2 /* LaunchScreen.storyboard in Resources */,
+				18B9792F24AFD4BB00CB65E2 /* 5.gif in Resources */,
+				18A344E524B3D40900189E07 /* kaka.gif in Resources */,
+				18B9793124AFD4BB00CB65E2 /* 2.gif in Resources */,
+				18B9793724AFD4E900CB65E2 /* 0-2.jpeg in Resources */,
+				18B9793224AFD4BB00CB65E2 /* 3.gif in Resources */,
+				182E7F4D24B5588700468F1B /* 66.gif in Resources */,
+				18B9793424AFD4BB00CB65E2 /* 9.gif in Resources */,
+				18B978F924AFD4A100CB65E2 /* Assets.xcassets in Resources */,
+				18A344E324B3D40900189E07 /* BasicViewController.xib in Resources */,
+				18B9792E24AFD4BB00CB65E2 /* 4.gif in Resources */,
+				18B978F724AFD49F00CB65E2 /* Main.storyboard in Resources */,
+				18B9793524AFD4BB00CB65E2 /* 7.jpg in Resources */,
+				18A344E824B3D40900189E07 /* FTProgressIndicator.bundle in Resources */,
+				18B9793924AFD5F600CB65E2 /* Iron Core At Home.rtfd in Resources */,
+				18B9793024AFD4BB00CB65E2 /* 6.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B9790224AFD4A200CB65E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B9790D24AFD4A200CB65E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B978E524AFD49F00CB65E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A344F324B3D40900189E07 /* JTCalendarWeekDayView.m in Sources */,
+				18A344EB24B3D40900189E07 /* Step4ViewController.m in Sources */,
+				18A344FA24B3D40900189E07 /* EZBarStep3ViewController.m in Sources */,
+				18A344E924B3D40900189E07 /* FTProgressIndicator.m in Sources */,
+				18A344F424B3D40900189E07 /* JTHorizontalCalendarView.m in Sources */,
+				18A344E124B3D40900189E07 /* Step2ViewController.m in Sources */,
+				18A344E024B3D40900189E07 /* FTNotificationIndicator.m in Sources */,
+				18A344F524B3D40900189E07 /* JTCalendarWeekView.m in Sources */,
+				182E7F4B24B5566900468F1B /* Step66ViewController.m in Sources */,
+				18A344EE24B3D40900189E07 /* JTDateHelper.m in Sources */,
+				18A344F024B3D40900189E07 /* JTCalendarDelegateManager.m in Sources */,
+				18A344F124B3D40900189E07 /* JTCalendarManager.m in Sources */,
+				18B978EE24AFD49F00CB65E2 /* AppDelegate.m in Sources */,
+				18A344E624B3D40900189E07 /* UIImage+animatedGIF.m in Sources */,
+				18B978FF24AFD4A100CB65E2 /* main.m in Sources */,
+				182E7F4524B5533E00468F1B /* Step5ViewController.m in Sources */,
+				18A344F624B3D40900189E07 /* JTCalendarDayView.m in Sources */,
+				18A344EA24B3D40900189E07 /* GetStartedNowVC.m in Sources */,
+				18A344F824B3D40900189E07 /* JTCalendarMenuView.m in Sources */,
+				18A344ED24B3D40900189E07 /* JTCalendarSettings.m in Sources */,
+				18B978F124AFD49F00CB65E2 /* SceneDelegate.m in Sources */,
+				18A344EF24B3D40900189E07 /* JTCalendarScrollManager.m in Sources */,
+				18A344F224B3D40900189E07 /* JTVerticalCalendarView.m in Sources */,
+				18A344EC24B3D40900189E07 /* FTToastIndicator.m in Sources */,
+				18A344F924B3D40900189E07 /* BasicViewController.m in Sources */,
+				18A344E224B3D40900189E07 /* STEP1ViewController.m in Sources */,
+				18A344E424B3D40900189E07 /* FTIndicator.m in Sources */,
+				18A344F724B3D40900189E07 /* JTCalendarPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B9790024AFD4A200CB65E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B9790924AFD4A200CB65E2 /* Iron_Core_At_HomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B9790B24AFD4A200CB65E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B9791424AFD4A200CB65E2 /* Iron_Core_At_HomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B9790624AFD4A200CB65E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B978E824AFD49F00CB65E2 /* Iron Core At Home */;
+			targetProxy = 18B9790524AFD4A200CB65E2 /* PBXContainerItemProxy */;
+		};
+		18B9791124AFD4A200CB65E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B978E824AFD49F00CB65E2 /* Iron Core At Home */;
+			targetProxy = 18B9791024AFD4A200CB65E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B978F524AFD49F00CB65E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B978F624AFD49F00CB65E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B978FA24AFD4A100CB65E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B978FB24AFD4A100CB65E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B9791624AFD4A200CB65E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18B9791724AFD4A200CB65E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B9791924AFD4A200CB65E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 87FB2DU7D4;
+				INFOPLIST_FILE = "Iron Core At Home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheenOne.IronCoreAtHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Iron Core At Home";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18B9791A24AFD4A200CB65E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 87FB2DU7D4;
+				INFOPLIST_FILE = "Iron Core At Home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheenOne.IronCoreAtHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Iron Core At Home";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18B9791C24AFD4A200CB65E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Iron Core At HomeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "weqr.Iron-Core-At-HomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iron Core At Home.app/Iron Core At Home";
+			};
+			name = Debug;
+		};
+		18B9791D24AFD4A200CB65E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Iron Core At HomeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "weqr.Iron-Core-At-HomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iron Core At Home.app/Iron Core At Home";
+			};
+			name = Release;
+		};
+		18B9791F24AFD4A200CB65E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Iron Core At HomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "weqr.Iron-Core-At-HomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Iron Core At Home";
+			};
+			name = Debug;
+		};
+		18B9792024AFD4A200CB65E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Iron Core At HomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "weqr.Iron-Core-At-HomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Iron Core At Home";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B978E424AFD49E00CB65E2 /* Build configuration list for PBXProject "Iron Core At Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B9791624AFD4A200CB65E2 /* Debug */,
+				18B9791724AFD4A200CB65E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B9791824AFD4A200CB65E2 /* Build configuration list for PBXNativeTarget "Iron Core At Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B9791924AFD4A200CB65E2 /* Debug */,
+				18B9791A24AFD4A200CB65E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B9791B24AFD4A200CB65E2 /* Build configuration list for PBXNativeTarget "Iron Core At HomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B9791C24AFD4A200CB65E2 /* Debug */,
+				18B9791D24AFD4A200CB65E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B9791E24AFD4A200CB65E2 /* Build configuration list for PBXNativeTarget "Iron Core At HomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B9791F24AFD4A200CB65E2 /* Debug */,
+				18B9792024AFD4A200CB65E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B978E124AFD49E00CB65E2 /* Project object */;
+}
